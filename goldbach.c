@@ -37,6 +37,10 @@ int main() {
 
         printf("%d %d %d %d \n", i, c, x, y);
     }
+
+    free(primes);
+
+    return 0;
 }
 
 int count_pairs(int n, int primes[]) {
