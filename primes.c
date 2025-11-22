@@ -1,3 +1,10 @@
+/**
+ * primes.c
+ *
+ * Copyright (c) 2025, Nikita Chesnokov <chesnoko@cs.petrsu.ru>
+ *
+ * This code is licensed under MIT license.
+ */
 #include <stdio.h>
 #include <stdlib.h>
 

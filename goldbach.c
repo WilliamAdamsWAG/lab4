@@ -1,3 +1,10 @@
+/**
+ * goldbach.c
+ *
+ * Copyright (c) 2025, Nikita Chesnokov <chesnoko@cs.petrsu.ru>
+ *
+ * This code is licensed under MIT license.
+ */
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -40,7 +47,7 @@ int main() {
 
     free(primes);
 
-    return 0;
+    return EXIT_SUCCESS;
 }
 
 int count_pairs(int n, int primes[]) {
@@ -68,4 +75,6 @@ int min_x(int n, int primes[]) {
             return i;
         }
     }
+
+    return -1;
 }

@@ -1,3 +1,10 @@
+/**
+ * calculate_primes.c
+ *
+ * Copyright (c) 2025, Nikita Chesnokov <chesnoko@cs.petrsu.ru>
+ *
+ * This code is licensed under MIT license.
+ */
 #include <math.h>
 #include "calculate_primes.h"
 
